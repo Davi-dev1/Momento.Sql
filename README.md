@@ -16,3 +16,8 @@ R-42
 ## Q:
 
 select count(*) from  funcionarios
+
+# 4- E quanto ao Departamento de Tecnologia?
+R-6
+## Q:select * from departamentos where departamento_nome like "%tecnologia%";<br>
+select count(*) from funcionarios where departamento_id=6;
