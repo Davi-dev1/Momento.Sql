@@ -32,3 +32,5 @@ R$13500.00<br>
 R$8600.00<br>
 R$8400.00<br>
 R$7000.00<br>
+Q:<BR>
+select salario from funcionarios where departamento_id=8; 
