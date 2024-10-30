@@ -25,3 +25,4 @@ R-5
 ## Q:
 select* from departamentos where departamento_nome like"%vendas%";<br>
 select count(*) from funcionarios where departamento_id=8;
+# 5 Salários no Departamento de Vendas
