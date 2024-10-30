@@ -34,3 +34,6 @@ R$8400.00<br>
 R$7000.00<br>
 Q:<BR>
 select salario from funcionarios where departamento_id=8; 
+# 6-Qual é o custo total dos salários do pessoal de Vendas? Isso nos ajuda a entender o orçamento do departamento!
+
+
