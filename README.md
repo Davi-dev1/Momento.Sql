@@ -38,3 +38,5 @@ select salario from funcionarios where departamento_id=8;
 R- R$51500.00<br>
 Q:<br>
 select sum(salario) as soma_dos_salários_totais from funcionarios where departamento_id=8 
+# 7 Quais são os produtos mais vendidos e quais têm pouca ou nenhuma saída?
+R
