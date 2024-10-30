@@ -27,8 +27,8 @@ select* from departamentos where departamento_nome like"%vendas%";<br>
 select count(*) from funcionarios where departamento_id=8;
 # 5 Salários no Departamento de Vendas
 R:<br>
-14000.00<br>
-13500.00<br>
-8600.00<br>
-8400.00<br>
-7000.00<br>
+R$14000.00<br>
+R$13500.00<br>
+R$8600.00<br>
+R$8400.00<br>
+R$7000.00<br>
