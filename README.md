@@ -39,4 +39,5 @@ R- R$51500.00<br>
 Q:<br>
 select sum(salario) as soma_dos_salários_totais from funcionarios where departamento_id=8 
 # 7 Quais são os produtos mais vendidos e quais têm pouca ou nenhuma saída?
-R
+R - produto mais vendido:1<br> 4 <br>  8 <br> 5 <br> 3 <br>produtos menos vendidos: 1 <br> 10<br> 3<br> 11 <br> 12<br>
+     
