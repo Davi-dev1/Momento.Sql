@@ -65,5 +65,10 @@ select primeiro_nome,data_contratacao from funcionarios order by data_contrataca
 # 13 - Qual o funcionário contratado há menos tempo na empresa? <br>
 ## R: Zatana<br>
 ## Q: <br>
-select primeiro_nome,data_contratacao from funcionarios order by data_contratacao desc;
+select primeiro_nome,data_contratacao from funcionarios order by data_contratacao desc;<br>
+# 13 - Quem são os funcionários com mais tempo na empresa, considerando a data_contratacao? <br>
+## R :<br>
+Steven<br>
+Jennifer<br>
+Neena<br>
 
