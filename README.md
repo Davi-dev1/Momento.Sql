@@ -72,5 +72,18 @@ Steven<br>
 Jennifer<br>
 Neena<br>
 ## Q:<br>
-select primeiro_nome,data_contratacao from funcionarios order by data_contratacao;
-
+select primeiro_nome,data_contratacao from funcionarios order by data_contratacao;<br>
+# 14 - Como a média salarial dos funcionários da "Momento" evoluiu nos últimos anos? Dica: utilize a função AVG() para calcular a média salarial dos funcionários. e GROUP BY para agrupar os resultados por ano.
+## R:  1987	14200.000000
+1989	17000.000000 <br>
+1990	9000.000000 <br>
+1991	6000.000000 <br>
+1993	17000.000000 <br> 
+1994	12847.500000<br>
+1995	5500.000000<br>
+1996	9750.000000<br>
+1997	6450.000000<br>
+1998	5816.666667<br>
+1999	5150.000000<br>
+2000	19650.000000     <br>
+## Q :  select YEAR(DATA_CONTRATACAO) as ano, avg(salario) as salário from funcionarios group by ano order by ano    <br>
