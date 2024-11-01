@@ -106,7 +106,8 @@ select avg(salario) as salário,departamento_id from funcionarios where  departa
 select departamento_id, count(*) as num_de_funcionarios from funcionarios where departamento_id in (1,2,3,4,5,6,7,8,9,10,11,12,13,19) group by departamento_id order by departamento_id desc;   <br>
 # 19 - Pensando na relação quantidade e valor unitario, qual o produto mais valioso da empresa? <br>
 # R:O uniforme do superman por só ter 1 unidade <br>
-# Q :select * from produtos where produto_price order by produto_price desc;    <br>
+# Q :<br>
+select * from produtos where produto_price order by produto_price desc;    <br>
 
 
 
