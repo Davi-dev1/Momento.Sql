@@ -113,9 +113,8 @@ select * from produtos where produto_price order by produto_price desc;    <br>
 # Q: <br> 
 select produto_id, quantidade from vendas order by produto_id desc;<br>
  # 21 - Qual o produto menos vendido da empresa?
- # R O menos vendido são os batrangs: com 3 unidades apenas
-<br>
-# Q: <br>
+ # R: O menos vendido são os batrangs: com 3 unidades apenas<br>
+ # Q <br>
 select produto_id, quantidade from vendas order by produto_id desc <br>
 
 
