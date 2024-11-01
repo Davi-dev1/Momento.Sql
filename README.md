@@ -48,5 +48,6 @@ select venda_id, produto_id, quantidade from vendas order by quantidade desc;<br
 R: Existem 2 produtos com o mesmo preço: <br> Sabre de Luz (Mace Windu)	, preço - R$990.29<br>
 Batarangs Oficiais, preço - R$	900.29 <br>
 # 9 - Um novo departamento foi criado. O departamento de Inovações. Ele será locado no Brasil. Por favor, adicione-o no banco de dados da empresa colocando quaisquer informações que você achar relevantes.
-# Q : INSERT INTO momento.escritorios(escritorio_id,escritorio_nome,endereco,cep,cidade,estado_provincia,pais_id) VALUES (2900,"James Dio","Rua das Jaquetibas",'02424','São Paulo','São Paulo','BR');<br>
+# Q : <br> 
+INSERT INTO momento.escritorios(escritorio_id,escritorio_nome,endereco,cep,cidade,estado_provincia,pais_id) VALUES (2900,"James Dio","Rua das Jaquetibas",'02424','São Paulo','São Paulo','BR');<br>
 INSERT INTO momento.departamentos(departamento_nome,escritorio_id) VALUES ('Inovação',2900);
