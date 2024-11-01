@@ -57,6 +57,9 @@ INSERT INTO momento.funcionarios(primeiro_nome, sobrenome, email, senha, telefon
 # 11 -  Quantos funcionários da empresa Momento possuem conjuges?<br>
 ## R: 4 <br>
 ### Q :
-select count(*) from momento.dependentes where relacionamento like "%conjuge%"
+select count(*) from momento.dependentes where relacionamento like "%conjuge%"<br>
+# 12 - Qual o funcionário contratado há mais tempo na empresa?
+## R: Steven            <br>
+## Q :select primeiro_nome,data_contratacao from funcionarios order by data_contratacao;            <br>
 
 
