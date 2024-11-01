@@ -71,4 +71,6 @@ select primeiro_nome,data_contratacao from funcionarios order by data_contrataca
 Steven<br>
 Jennifer<br>
 Neena<br>
+## Q:<br>
+select primeiro_nome,data_contratacao from funcionarios order by data_contratacao;
 
