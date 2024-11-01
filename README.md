@@ -116,6 +116,9 @@ select produto_id, quantidade from vendas order by produto_id desc;<br>
  # R: O menos vendido são os batrangs: com 3 unidades apenas<br>
  # Q: <br>
 select produto_id, quantidade from vendas order by produto_id desc <br>
+# 22 - Quantos escritórios a "Momento" possui em cada região? (Dica: relacione as tabelas regioes e escritorios
+# R:<br> 
+# Q:<br>
 
 
 
