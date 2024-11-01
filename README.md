@@ -108,6 +108,15 @@ select departamento_id, count(*) as num_de_funcionarios from funcionarios where 
 # R:O uniforme do superman por só ter 1 unidade <br>
 # Q :<br>
 select * from produtos where produto_price order by produto_price desc;    <br>
+# 20 - Qual o produto mais vendido da empresa?
+# R: Unifrome do superman : 167 unidades <br>
+# Q: <br> 
+select produto_id, quantidade from vendas order by produto_id desc;<br>
+ # 21 - Qual o produto menos vendido da empresa?
+ # R O menos vendido são os batrangs: com 3 unidades apenas
+<br>
+# Q: <br>
+select produto_id, quantidade from vendas order by produto_id desc <br>
 
 
 
