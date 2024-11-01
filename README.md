@@ -51,4 +51,12 @@ Batarangs Oficiais, preço - R$	900.29 <br>
 # Q : <br> 
 INSERT INTO momento.escritorios(escritorio_id,escritorio_nome,endereco,cep,cidade,estado_provincia,pais_id) VALUES (2900,"James Dio","Rua das Jaquetibas",'02424','São Paulo','São Paulo','BR');<br>
 INSERT INTO momento.departamentos(departamento_nome,escritorio_id) VALUES ('Inovação',2900);<br>
-# 10 - O departamento de Inovações está sem funcionários. Inclua alguns colegas de turma nesse departamento.
+# 10 - O departamento de Inovações está sem funcionários. Inclua alguns colegas de turma nesse departamento.<br>
+INSERT INTO momento.funcionarios(primeiro_nome, sobrenome, email, senha, telefone, data_contratacao, cargo_id, salario, gerente_id, departamento_id) VALUES("Lucy","Borges","lucy@gmail.com",2323,987865409,2010-01-01,18,1500,null,19);
+INSERT INTO momento.funcionarios(primeiro_nome, sobrenome, email, senha, telefone, data_contratacao, cargo_id, salario, gerente_id, departamento_id) VALUES("Lucas","Santos","lucas@gmail.com",2478,937097778,2024-05-01,18,2000,null,19);
+# 11 -  Quantos funcionários da empresa Momento possuem conjuges?<br>
+## R: 4 <br>
+### Q :
+select count(*) from momento.dependentes where relacionamento like "%conjuge%"
+
+
