@@ -60,6 +60,7 @@ INSERT INTO momento.funcionarios(primeiro_nome, sobrenome, email, senha, telefon
 select count(*) from momento.dependentes where relacionamento like "%conjuge%"<br>
 # 12 - Qual o funcionário contratado há mais tempo na empresa?
 ## R: Steven            <br>
-## Q :select primeiro_nome,data_contratacao from funcionarios order by data_contratacao;            <br>
+## Q :<BR>
+select primeiro_nome,data_contratacao from funcionarios order by data_contratacao;            <br>
 
 
