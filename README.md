@@ -86,4 +86,5 @@ select primeiro_nome,data_contratacao from funcionarios order by data_contrataca
 1998	5816.666667<br>
 1999	5150.000000<br>
 2000	19650.000000     <br>
-## Q :  select YEAR(DATA_CONTRATACAO) as ano, avg(salario) as salário from funcionarios group by ano order by ano    <br>
+## Q : <br>  
+select YEAR(DATA_CONTRATACAO) as ano, avg(salario) as salário from funcionarios group by ano order by ano    <br>
