@@ -62,5 +62,7 @@ select count(*) from momento.dependentes where relacionamento like "%conjuge%"<b
 ## R: Steven            <br>
 ## Q :<BR>
 select primeiro_nome,data_contratacao from funcionarios order by data_contratacao;            <br>
-
+# 13 - Qual o funcionário contratado há menos tempo na empresa? <br>
+## R: <br>
+## Q: <br>
 
