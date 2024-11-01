@@ -44,4 +44,7 @@ R : <br>
 # Produtos menos vendidos(produto_id):<br> 1 <br> 10<br> 3<br> 11 <br> 12<br>
 # Q:<br>
 select venda_id, produto_id, quantidade from vendas order by quantidade desc;<br>
-# 8 - Qual é o produto mais caro no inventário da empresa?
+# 8 - Qual é o produto mais caro no inventário da empresa?<br>
+R: Existem 2 produtos com o mesmo preço - Sabre de Luz (Mace Windu)	, preço - R$990.29<br>
+Batarangs Oficiais, preço - R$	900.29
+
