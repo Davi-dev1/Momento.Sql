@@ -88,3 +88,16 @@ select primeiro_nome,data_contratacao from funcionarios order by data_contrataca
 2000	19650.000000     <br>
 ## Q : <br>  
 select YEAR(DATA_CONTRATACAO) as ano, avg(salario) as salário from funcionarios group by ano order by ano    <br>
+# 15 - Qual a média salarial dos funcionários da empresa Momento, excluindo-se o CEO, CMO e CFO?
+## R - 8442.894737  <br>
+## Q:<br>
+select avg(salario) as salario from funcionarios where not cargo_id in (4,7,10)  <br> 
+# 16 - Qual a média salarial do departamento de tecnologia? <br>
+## R: 5760.000000<br>
+## Q: <br>
+select avg(salario)as salario from funcionarios where departamento_id=6;<br>
+# 17 - Qual o departamento com a maior média salarial?
+# R: Departamento com id=13<br>
+# Q : select avg(salario) as salário,departamento_id from funcionarios where  departamento_id in (1,2,3,4,5,6,7,8,9,10,11,12,13,19) group by departamento_id order by departamento_id desc  <BR>
+
+
