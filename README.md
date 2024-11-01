@@ -50,4 +50,5 @@ Batarangs Oficiais, preço - R$	900.29 <br>
 # 9 - Um novo departamento foi criado. O departamento de Inovações. Ele será locado no Brasil. Por favor, adicione-o no banco de dados da empresa colocando quaisquer informações que você achar relevantes.
 # Q : <br> 
 INSERT INTO momento.escritorios(escritorio_id,escritorio_nome,endereco,cep,cidade,estado_provincia,pais_id) VALUES (2900,"James Dio","Rua das Jaquetibas",'02424','São Paulo','São Paulo','BR');<br>
-INSERT INTO momento.departamentos(departamento_nome,escritorio_id) VALUES ('Inovação',2900);
+INSERT INTO momento.departamentos(departamento_nome,escritorio_id) VALUES ('Inovação',2900);<br>
+# 10 - O departamento de Inovações está sem funcionários. Inclua alguns colegas de turma nesse departamento.
