@@ -98,6 +98,7 @@ select avg(salario) as salario from funcionarios where not cargo_id in (4,7,10) 
 select avg(salario)as salario from funcionarios where departamento_id=6;<br>
 # 17 - Qual o departamento com a maior média salarial?
 # R: Departamento com id=13<br>
-# Q : select avg(salario) as salário,departamento_id from funcionarios where  departamento_id in (1,2,3,4,5,6,7,8,9,10,11,12,13,19) group by departamento_id order by departamento_id desc  <BR>
+# Q : <br>
+select avg(salario) as salário,departamento_id from funcionarios where  departamento_id in (1,2,3,4,5,6,7,8,9,10,11,12,13,19) group by departamento_id order by departamento_id desc  <BR>
 
 
