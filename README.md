@@ -100,5 +100,8 @@ select avg(salario)as salario from funcionarios where departamento_id=6;<br>
 # R: Departamento com id=13<br>
 # Q : <br>
 select avg(salario) as salário,departamento_id from funcionarios where  departamento_id in (1,2,3,4,5,6,7,8,9,10,11,12,13,19) group by departamento_id order by departamento_id desc  <BR>
+# 18 - Qual o departamento com o menor número de funcionários?
+# R : <br>
+# Q : <br>
 
 
