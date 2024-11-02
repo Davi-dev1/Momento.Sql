@@ -117,8 +117,12 @@ select produto_id, quantidade from vendas order by produto_id desc;<br>
  # Q: <br>
 select produto_id, quantidade from vendas order by produto_id desc <br>
 # 22 - Quantos escritórios a "Momento" possui em cada região? (Dica: relacione as tabelas regioes e escritorios
-# R:<br> 
-# Q:<br>
+# R:Brasil possui 4, Reino Unido possui 3,Estados Unidos possui 3, Canada possui 1, Alemnha e Wakanda possuem ambas 1    <br> 
+# Q: SELECT paises.pais_nome, escritorios.pais_id, COUNT(*) FROM escritorios<br>
+INNER JOIN paises ON paises.pais_id = escritorios.pais_id<br>
+GROUP BY pais_id <br>
+ORDER BY COUNT(*) DESC;
+     <br>
 
 
 
