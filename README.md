@@ -124,6 +124,18 @@ INNER JOIN paises ON paises.pais_id = escritorios.pais_id<br>
 GROUP BY pais_id <br>
 ORDER BY COUNT(*) DESC;
      <br>
+     # 23 -  Qual é o custo total de suprimentos em cada escritório? Que tal ordenar os resultados para ver qual escritório possui os suprimentos mais caros?<br>
+     # R: <br>
+   Umbrella Corp	405000.00 <br>
+Baxter Building	403752.85 <br>
+Wayne escritorios	148000.00 <br>
+Shuri's Palace	5505.70 <br>
+Sala Winter	5050.07 <br>
+House of Mystery escritorios	4000.00 <br>
+Arkham Base	2000.00 <br>
+     # Q : <br>
+     select escritorios.escritorio_nome, sum(custo) from momento.suprimentos<br>
+inner join escritorios on escritorios.escritorio_id=suprimentos.escritorio_id group by escritorio_nome order by sum(custo) desc;
 
 
 
